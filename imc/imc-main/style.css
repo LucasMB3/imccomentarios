@@ -1,0 +1,77 @@
+:root {
+	--cor-calculadora: rgb(57, 74, 151);
+	--cor-titulo: white;
+	--cor-resultado: rgb(0, 0, 0);
+	--cor-botao-calcular: rgb(13, 129, 0);
+	--cor-botao-limpar: red;
+  }
+  
+
+  .container {
+	margin: 0 auto;
+	max-width: 40em; 
+	text-align: center;
+	background-color: var(--cor-calculadora);
+	border-radius: 0.3125em; 
+	border: 0.0625em solid var(--cor-calculadora); 
+	padding: 1.25em; 
+  }
+  
+  h1 {
+	font-size: 2.3em;
+	padding-top: 1.25em; 
+	color: var(--cor-titulo);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .input {
+	margin: 0.625em; 
+  }
+  
+  label {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 0.625em; 
+	font-size: 1.125em; 
+  }
+  
+  .input input {
+	display: inline-block;
+	border-radius: 0.3125em; 
+	padding: 0.5em; 
+	border: 0.0625em solid var(--cor-calculadora); 
+  }
+
+  button {
+	padding: 0.625em 1.25em; 
+	background-color: var(--cor-botao-calcular);
+	color: #fff;
+	border: none;
+	border-radius: 0.3125em; 
+	margin: 1.25em; 
+	font-size: 1.25em; 
+	cursor: pointer;
+	display: inline-block;
+  }
+  
+  #limpar {
+	background-color: var(--cor-botao-limpar);
+  }
+  
+  #resultado {
+	margin: 1.875em 5%;
+	background-color: var(--cor-resultado);
+	border-radius: 1.875em; 
+	color: #fff;
+	font-size: 1.125em; 
+	padding: 1.875em; 
+  }
+  
+  
+  #tabela img {
+	max-width: 100%;
+	border-radius: 0.3125em; 
+  }
+  

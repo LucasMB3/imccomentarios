@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/imc.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Descubra seu IMC</h1>
+        <p id="resultado"></p>
+
+
+        <div class="input">
+            <label for="peso">Peso:</label>
+            <input type="number" id="peso" placeholder="Ex: 80">
+        </div>
+
+        <div class="input">
+            <label for="altura">Altura:</label>
+            <input type="number" id="altura" placeholder="Ex: 1.80">
+        </div>
+
+        <div class="buttons">
+            <button id="btnCalcular" type="button" onclick="CalcularIMC()">Calcular</button>
+            <button id="limpar" type="button" onclick="Limpar()">Limpar</button>
+        </div>
+
+        <div id="tabela">
+            <img src="tabela.png" alt="">
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</body>
+
+</html>
